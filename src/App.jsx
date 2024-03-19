@@ -1,5 +1,8 @@
 
 import './App.css'
+import MainNavbar from './Components/MainNavbar/MainNavbar'
+// import Navbar from './Components/Navbar/Navbar'
+import PriceOptions from './Components/PriceOptions/PriceOptions'
 
 function App() {
   
@@ -7,7 +10,9 @@ function App() {
   return (
     <>
       
-      <h1 className=' bg-rose-500'>Vite + React</h1>
+      <MainNavbar></MainNavbar>
+      {/* <Navbar></Navbar> */}
+      <PriceOptions></PriceOptions>
       
     </>
   )
